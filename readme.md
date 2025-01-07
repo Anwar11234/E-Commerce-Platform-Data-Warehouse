@@ -59,6 +59,7 @@ Based on the given data and requirements, I designed a data warehouse schema tha
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q1 result.png>)
 
 #### What time users are most likely make an order or using the ecommerce app?
@@ -72,6 +73,7 @@ Based on the given data and requirements, I designed a data warehouse schema tha
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q2 result.png>)
 
 #### What is the preferred way to pay in the ecommerce?
@@ -94,6 +96,7 @@ Based on the given data and requirements, I designed a data warehouse schema tha
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q3 result.png>)
 
 #### How many installment is usually done when paying in the ecommerce?
@@ -109,6 +112,7 @@ Based on the given data and requirements, I designed a data warehouse schema tha
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q4 result.png>)
 
 #### What is the average spending time for user for our ecommerce?
@@ -130,6 +134,7 @@ Based on my understanding of the data, the spending time for a user is the durat
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q5 result.png>)
 
 #### What is the frequency of purchase on each state?
@@ -150,6 +155,7 @@ Based on my understanding of the data, the spending time for a user is the durat
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q6 result.png>)
 
 #### Which logistic route that have heavy traffic in our ecommerce?
@@ -174,6 +180,7 @@ Based on my understanding of the data, the spending time for a user is the durat
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q7 result.png>)
 
 #### How many late delivered order in our ecommerce? Are late order affecting the customer satisfaction?
@@ -193,6 +200,7 @@ Based on my understanding of the data, the spending time for a user is the durat
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q8.1 result.png>)
 
 **Average feedback score for late orders:**
@@ -209,6 +217,7 @@ Based on my understanding of the data, the spending time for a user is the durat
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q8.2 result.png>)
 
 The average feedback score is low for late orders, so late deliveries are affecting customer satisfaction.
@@ -243,6 +252,7 @@ Delay for delivery can be defined as either:
         [Average delay (days)] DESC
 ```
 **Result**:
+
 ![alt text](<business questions answers/q9.1.1 result.png>)
 
 - Or it can be The number of days between delivery date and estimated time delivery, and the answer in this case will be:
@@ -276,6 +286,7 @@ ORDER BY
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q9.1.2 result.png>)
 
 Similarly, shipping delay can be defined in 2 ways:
@@ -309,6 +320,7 @@ ORDER BY
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q9.2.1 result.png>)
 
 2. The difference between pickup date and delievery date
@@ -342,6 +354,7 @@ ORDER BY
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q9.2.2 result.png>)
 
 #### How long are the difference between estimated delivery time and actual delivery time in each state?
@@ -370,4 +383,5 @@ ORDER BY
 ```
 
 **Result**:
+
 ![alt text](<business questions answers/q10 result.png>)
