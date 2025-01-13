@@ -225,7 +225,7 @@ The average feedback score is low for late orders, so late deliveries are affect
 #### How long are the delay for delivery / shipping process in each state?
 
 Delay for delivery can be defined as either:
-- The number of days between order date and delivery date. In this case the answer will be: 
+- The number of days between delivery date and estimated time delivery. In this case the answer will be: 
 ```sql
     SELECT 
         customer_state, 
@@ -255,7 +255,7 @@ Delay for delivery can be defined as either:
 
 ![alt text](<business questions answers/q9.1.1 result.png>)
 
-- Or it can be The number of days between delivery date and estimated time delivery, and the answer in this case will be:
+- Or it can be the number of days between order date and delivery date, and the answer in this case will be:
 
 ```sql
 WITH order_dates AS (
